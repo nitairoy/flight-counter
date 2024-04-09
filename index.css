@@ -1,0 +1,64 @@
+body {
+    background: url("flights.webp");
+    background-size: cover;
+    background-position: top;
+    font-weight: bold;
+    text-align: center;
+    color: #2106a7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 10% auto;
+}
+
+
+h1 {
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;   
+}
+
+
+button {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4.6px;
+    color: #fff;
+    border: none;
+    margin: 5px;
+    
+}
+
+button:hover {
+    color: #a8a8a8;
+    background-color: #f3e885;
+
+}
+
+#increment-btn {
+    background: rgb(32 56 226 / 91%)
+}
+
+#save-btn {
+    background: rgb(5, 226, 178);
+}
+
+#count-el{
+    color: rgb(120 0 0);
+}
+
+#save-el{
+    color: white;
+}
